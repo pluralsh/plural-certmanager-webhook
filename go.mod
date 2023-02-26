@@ -7,7 +7,7 @@ require (
 	github.com/jetstack/cert-manager v1.2.0
 	github.com/miekg/dns v1.1.31
 	github.com/pluralsh/gqlclient v1.1.6
-	github.com/stretchr/testify v1.8.0
+	github.com/stretchr/testify v1.8.2
 	k8s.io/apiextensions-apiserver v0.19.0
 	k8s.io/client-go v0.19.0
 )
