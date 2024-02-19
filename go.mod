@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/cert-manager/cert-manager v1.11.3
-	github.com/cert-manager/webhook-example v0.0.0-20230119163313-9ea71aef37e6
+	github.com/cert-manager/webhook-example e57412778df6
 	github.com/miekg/dns v1.1.51
 	github.com/pluralsh/acme v0.0.2
 	github.com/pluralsh/gqlclient v1.3.9
