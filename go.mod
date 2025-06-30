@@ -1,6 +1,15 @@
 module github.com/pluralsh/plural-certmanager-webhook
 
-go 1.24.4
+go 1.24.2
+
+toolchain go1.24.4
+
+replace (
+	github.com/google/cel-go => github.com/google/cel-go v0.22.0
+	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc => go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.60.0
+	k8s.io/apiserver => k8s.io/apiserver v0.32.0
+	k8s.io/component-base => k8s.io/component-base v0.32.0
+)
 
 require (
 	github.com/cert-manager/cert-manager v1.18.1
@@ -23,6 +32,7 @@ require (
 	github.com/NYTimes/gziphandler v1.1.1 // indirect
 	github.com/Yamashou/gqlgenc v0.32.1 // indirect
 	github.com/antlr4-go/antlr/v4 v4.13.1 // indirect
+	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/blang/semver/v4 v4.0.0 // indirect
 	github.com/cenkalti/backoff/v5 v5.0.2 // indirect
