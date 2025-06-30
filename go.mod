@@ -1,8 +1,6 @@
 module github.com/pluralsh/plural-certmanager-webhook
 
-go 1.24.2
-
-toolchain go1.24.4
+go 1.24.4
 
 replace github.com/google/cel-go => github.com/google/cel-go v0.22.0
 
