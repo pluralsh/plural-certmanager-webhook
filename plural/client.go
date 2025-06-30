@@ -59,7 +59,7 @@ func NewClient(conf *Config) *Client {
 	endpoint := base + "/gql"
 	return &Client{
 		ctx:          context.Background(),
-		pluralClient: gqlclient.NewClient(&httpClient, endpoint),
+		pluralClient: gqlclient.NewClient(&httpClient, endpoint, nil),
 		config:       conf,
 	}
 }
